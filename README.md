@@ -65,4 +65,10 @@ The script saves a diagram as `comparison_final_output.png`:
 Install the dependency:
 ```bash
 pip install matplotlib
+```
 
+---
+
+### Example Output
+
+![image](https://github.com/user-attachments/assets/11e21e07-bb01-4d5f-b906-4863d657133c)
