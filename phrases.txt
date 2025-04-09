@@ -1,0 +1,4 @@
+A|The raindrops fall
+B|the night is dark
+C|rare
+
