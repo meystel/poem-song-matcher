@@ -31,3 +31,38 @@ The script:
 Text files where **some lines begin with a label** like `A1: The stars shine bright`. Other lines are plain text.
 
 Example:
+
+A1: The stars shine bright And all the world sleeps B2: Silent dreams
+
+
+### `phrases.txt`
+
+Each line defines a label and a matching phrase:
+
+A1 | The stars shine bright B2 | Silent dreams
+
+
+Only labeled lines with corresponding entries in both `poem.txt`, `song.txt`, and `phrases.txt` will be displayed.
+
+---
+
+## Output
+
+The script saves a diagram as `comparison_final_output.png`:
+- Poem on the left
+- Song on the right
+- Matching phrases circled
+- Orange curved connectors show phrase alignment
+
+---
+
+## How to Run
+
+### Requirements
+- Python 3.6+
+- `matplotlib`
+
+Install the dependency:
+```bash
+pip install matplotlib
+
